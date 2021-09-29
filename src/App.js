@@ -5,7 +5,7 @@ import resume from "./resume.pdf";
 
 function App() {
   return (
-    <div className="bg-gray-400 md:px-24 pt-2 md:pt-10">
+    <div className=" md:px-24 pt-2 md:pt-10 wave-bg">
       <div className="md:mx-24 shadow-7xl mx-2  md:pb-10 pb-4">
         <img className="rounded-t-3xl " src={page1}></img>
         <img className="rounded-b-3xl" src={page2}></img>
@@ -15,7 +15,7 @@ function App() {
           href={resume}
           download
           target="_blank"
-          className=" flex items-center bg-purple-600 hover:bg-purple-700 rounded-lg shadow-xl  md:text-lg text-white px-4 py-2"
+          className=" flex items-center bg-black hover:bg-gray-700 rounded-lg shadow-xl  md:text-lg text-white px-4 py-2"
         >
           Download Resume
         </a>
