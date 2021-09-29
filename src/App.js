@@ -1,5 +1,4 @@
 import React from "react";
-import { Document, Page } from "react-pdf";
 import page1 from "./0001.jpg";
 import page2 from "./0002.jpg";
 import resume from "./resume.pdf";
